@@ -1,0 +1,34 @@
+{
+  "name": "agricola-callidus",
+  "version": "1.0.0",
+  "description": "The best service for farmer and other who work in agro section. So try it)",
+  "main": "server.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon server.js",
+    "start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michapotselyev/Agricola-Callidus.git"
+  },
+  "keywords": [
+    "agricola-callidus",
+    "react",
+    "node",
+    "agro",
+    "Arcgis"
+  ],
+  "author": "Agricola Callidus Inc. Main developer and teamlead Mikhailo Potseluiev.",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/michapotselyev/Agricola-Callidus/issues"
+  },
+  "homepage": "https://github.com/michapotselyev/Agricola-Callidus#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "sqlite3": "^5.0.11"
+  }
+}
